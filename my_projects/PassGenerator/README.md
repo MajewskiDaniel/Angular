@@ -1,3 +1,5 @@
+YOU CAN SEE HOW IT WORKS: https://passgenerator-gerk7t9mc.now.sh/
+
 # PassGenerator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
