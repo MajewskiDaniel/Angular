@@ -1,0 +1,11 @@
+<label>
+  Tytul:
+  <input type="text" [(ngModel)]="createdTitle" />
+
+  <textarea name="Description" [(ngModel)]="content"></textarea>
+
+  <input type="text" [(ngModel)]="imageUrl" />
+</label>
+<button (click)="addNews()" [disabled]="!createdTitle">
+  dodaj
+</button>

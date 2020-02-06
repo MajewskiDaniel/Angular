@@ -1,0 +1,17 @@
+h2 {
+    font-size: 80px;
+    margin-left: 80px;
+}
+button {
+    font-size: 30px;
+    margin: 10px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}

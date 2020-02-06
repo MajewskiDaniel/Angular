@@ -1,0 +1,16 @@
+<div class="news-item" [class.news-item-odd]="isOdd">
+  <h3>{{ news.title }}</h3>
+  <img [src]="news.imageUrl" />
+
+  {{ news.content }}
+  <button (click)="remove()">
+    usun
+  </button>
+
+  <app-rating
+    (voteUp)="onRankUp()"
+    (voteDown)="onRankDown()"
+    [rating]="news.rank"
+  ></app-rating>
+  <div class="clear"></div>
+</div>

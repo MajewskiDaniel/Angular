@@ -1,0 +1,26 @@
+.news-item {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px dashed salmon;
+  padding: 5px;
+  margin: 5px;
+}
+.news-item-odd {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.news-item button {
+  float: right;
+}
+
+.clear {
+  clear: right;
+}
+
+app-rating {
+  float: right;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
