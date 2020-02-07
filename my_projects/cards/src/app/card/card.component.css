@@ -1,0 +1,6 @@
+.card {
+  width: 350px;
+}
+:host {
+  margin: 10px;
+}
