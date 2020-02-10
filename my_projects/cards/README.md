@@ -1,3 +1,5 @@
+You can watch this here: https://cards.danielmajewski82.now.sh/
+
 # Cards
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
