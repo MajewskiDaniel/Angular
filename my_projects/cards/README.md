@@ -1,4 +1,4 @@
-You can watch this here: https://cards.danielmajewski82.now.sh/
+You can watch this app here: https://cards.danielmajewski82.now.sh/
 
 # Cards
 
