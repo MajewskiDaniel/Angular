@@ -5,7 +5,11 @@ import TasksJson from "../assets/tasks.json";
   providedIn: "root"
 })
 export class DataService {
-  public tasksData = TasksJson;
+  public tasksData = TasksJson.sort((a, b) => {
+    let dateA: any = new Date(a.date),
+      dateB: any = new Date(b.date);
+    return dateA - dateB;
+  });
   constructor() {}
 
   loadData() {}
