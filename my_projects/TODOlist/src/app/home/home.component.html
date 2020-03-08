@@ -1,0 +1,31 @@
+<div class="home">
+  <section class="nav">
+    <button class="add">
+      <a class="router" routerLink="/task">Add task</a>
+    </button>
+  </section>
+  <div class="tasklist">
+    <h3>Tasks to do</h3>
+    <ng-container *ngFor="let data of dataService.tasksData">
+      <div class="task" *ngIf="data.done === 'false'">
+        <input type="checkbox" />
+        <span class="label"> {{ data.label }}</span>
+        <span class="date"> {{ data.date }}</span>
+        <button>edit</button>
+        <button>del</button>
+      </div>
+    </ng-container>
+  </div>
+  <div class="done">
+    <h3>Tasks done</h3>
+    <ng-container *ngFor="let data of dataService.tasksData">
+      <div class="task" *ngIf="data.done === 'true'">
+        <input type="checkbox" value="1" Checked />
+        <span class="label"> {{ data.label }}</span>
+        <span class="date"> {{ data.date }}</span>
+        <button>edit</button>
+        <button>del</button>
+      </div>
+    </ng-container>
+  </div>
+</div>

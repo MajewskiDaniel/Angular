@@ -1,0 +1,37 @@
+[
+  {
+    "label": "buy flowers to my girls",
+    "date": "08.03.2020",
+    "done": "true"
+  },
+  {
+    "label": "clean the garage",
+    "date": "12.03.2020",
+    "done": "false"
+  },
+  {
+    "label": "do the shopping",
+    "date": "10.03.2020",
+    "done": "true"
+  },
+  {
+    "label": "fix the motorcycle",
+    "date": "20.03.2020",
+    "done": "false"
+  },
+  {
+    "label": "fix the washing machine",
+    "date": "15.03.2020",
+    "done": "false"
+  },
+  {
+    "label": "buy a birthsday gift",
+    "date": "13.03.2020",
+    "done": "false"
+  },
+  {
+    "label": "do the homework",
+    "date": "14.03.2020",
+    "done": "false"
+  }
+]
