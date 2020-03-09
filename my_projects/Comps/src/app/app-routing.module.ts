@@ -5,6 +5,18 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 
 const routes: Routes = [
   {
+    path: "elements",
+    loadChildren: () =>
+      import("./elements/elements.module").then(m => m.ElementsModule)
+    // lazy loding above ^^ (before that we needed to remove import statements for ElementsModule)
+  },
+  {
+    path: "collections",
+    loadChildren: () =>
+      import("./collections/collections.module").then(m => m.CollectionsModule)
+    // lazy loding above ^^ (before that we needed to remove import statements for CollectionsModule)
+  },
+  {
     path: "",
     component: HomeComponent
   },

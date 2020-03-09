@@ -1,0 +1,10 @@
+<div class="ui placeholder segment">
+  <div class="ui icon header">
+    <ng-content select="header"></ng-content>
+    <!-- we can't use ng-content more than once, unless we use select like above -->
+    <!-- in parent component we need to wrap content in to header, and it will be placed here -->
+    <!-- we can do it also by selecting atributes, for ex. iconHeader and add this selector in to parent component -->
+    <!-- look in to the css file too. there is selector witch remove this div.ui.icon.header when it is empty -->
+  </div>
+  <ng-content></ng-content>
+</div>
