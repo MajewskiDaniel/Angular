@@ -1,37 +1,44 @@
 [
   {
+    "id": 1,
     "label": "buy flowers to my girls",
     "date": "2020.03.08",
-    "done": "true"
+    "done": true
   },
   {
+    "id": 2,
     "label": "clean the garage",
     "date": "2020.03.17",
-    "done": "false"
+    "done": false
   },
   {
+    "id": 3,
     "label": "do the shopping",
     "date": "2020.03.14",
-    "done": "true"
+    "done": true
   },
   {
+    "id": 4,
     "label": "fix the motorcycle",
     "date": "2020.03.20",
-    "done": "false"
+    "done": false
   },
   {
+    "id": 5,
     "label": "fix the washing machine",
     "date": "2020.03.15",
-    "done": "false"
+    "done": false
   },
   {
+    "id": 6,
     "label": "buy a birthsday gift",
     "date": "2020.03.13",
-    "done": "false"
+    "done": false
   },
   {
+    "id": 7,
     "label": "do the homework",
     "date": "2020.03.14",
-    "done": "false"
+    "done": false
   }
 ]

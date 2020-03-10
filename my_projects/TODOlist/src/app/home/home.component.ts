@@ -1,12 +1,19 @@
 import { Component, OnInit } from "@angular/core";
 import { DataService } from "./../data.service";
+import { Task } from "../task";
 
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
   styleUrls: ["./home.component.css"]
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   constructor(public dataService: DataService) {}
-  ngOnInit(): void {}
+
+  onTaskChange(task: Task) {
+    this.dataService.updateTask(task);
+  }
+  onTaskRemove(task: Task) {
+    this.dataService.removeTask(task);
+  }
 }

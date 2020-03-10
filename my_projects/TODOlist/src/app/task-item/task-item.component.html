@@ -1,1 +1,7 @@
-<p>task-item works!</p>
+<div class="task">
+  <input type="checkbox" [checked]="task.done" (click)="checkboxChanged()" />
+  <span class="label"> {{ task.label }}</span>
+  <span class="date"> {{ task.date | date: "fullDate" }}</span>
+  <a [routerLink]="['/task', task.id, 'edit']">edit</a>
+  <button (click)="onRemove()">del</button>
+</div>

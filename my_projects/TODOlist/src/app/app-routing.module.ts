@@ -7,7 +7,8 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 const routes: Routes = [
   {
     path: "",
-    component: HomeComponent
+    redirectTo: "/home",
+    pathMatch: "full"
   },
   {
     path: "home",
@@ -15,6 +16,10 @@ const routes: Routes = [
   },
   {
     path: "task",
+    component: TaskComponent
+  },
+  {
+    path: "task/:id/edit",
     component: TaskComponent
   },
   {

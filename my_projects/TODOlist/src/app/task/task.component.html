@@ -3,5 +3,10 @@
     <a routerLink="/home">Back</a>
   </section>
 
-  <p>task works!</p>
+  {{ task | json }}
+
+  <input type="text" [(ngModel)]="task.label" />
+  <input type="date" [(ngModel)]="task.date" />
+
+  <button (click)="onSave(task)">Save</button>
 </div>
