@@ -11,7 +11,7 @@ export class DataService {
   //   let dateA: any = new Date(a.date),
   //     dateB: any = new Date(b.date);
   //   return dateA - dateB;
-  // }); this was cut. it shouldn't be sorted it there. i need to do it in some other way
+  // }); this was cut. it shouldn't be sorted here. i need to do it in some other way in other place
 
   constructor(private http: HttpClient) {}
 
