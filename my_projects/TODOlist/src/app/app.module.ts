@@ -12,6 +12,7 @@ import { TaskItemComponent } from "./task-item/task-item.component";
 import { TaskListComponent } from "./task-list/task-list.component";
 import { IsDonePipe } from "./is-done.pipe";
 import { SortPipe } from './sort.pipe';
+import { DateFilterPipe } from './date-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SortPipe } from './sort.pipe';
     TaskItemComponent,
     TaskListComponent,
     IsDonePipe,
-    SortPipe
+    SortPipe,
+    DateFilterPipe
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

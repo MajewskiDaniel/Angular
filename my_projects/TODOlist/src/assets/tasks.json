@@ -14,7 +14,7 @@
   {
     "id": 3,
     "label": "do the shopping",
-    "date": "2020-03-14",
+    "date": "2020-03-10",
     "done": true
   },
   {
@@ -26,13 +26,13 @@
   {
     "id": 5,
     "label": "fix the washing machine",
-    "date": "2020-03-15",
+    "date": "2020-03-11",
     "done": false
   },
   {
     "id": 6,
     "label": "buy a birthsday gift",
-    "date": "2020-03-13",
+    "date": "2020-03-12",
     "done": false
   },
   {
@@ -50,8 +50,8 @@
   {
     "id": 9,
     "label": "buy few beers",
-    "date": "2020-03-9",
-    "done": true
+    "date": "2020-03-09",
+    "done": false
   },
   {
     "id": 10,
