@@ -1,18 +1,33 @@
 .task {
+  margin-top: 15px;
   display: flex;
-  margin: 10px 20px;
-  justify-content: space-between;
+  margin: 15px 0px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.checkbox {
+  background-color: white;
 }
 .label {
+  margin-left: 5px;
+  flex-basis: 60%;
   flex-grow: 1;
 }
 .date {
   margin: 0 10px;
 }
-button {
-  background-color: white;
-  border: 1px solid grey;
+.edit {
   cursor: pointer;
-  border-radius: 5px;
+  margin: 5px 15px;
+}
+.edit i {
+  color: black;
+  font-size: 18px;
+}
+.delete {
+  background-color: white;
+  cursor: pointer;
+  border: none;
   margin: 0 5px;
+  font-size: 18px;
 }

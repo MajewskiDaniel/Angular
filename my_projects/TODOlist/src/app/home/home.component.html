@@ -1,20 +1,28 @@
 <div class="home">
+  <header>
+    <h1>
+      Task List
+    </h1>
+  </header>
   <section class="nav">
     <button class="add">
-      <a class="router" routerLink="/task">Add task</a>
+      <a class="router" routerLink="/task">Add Task</a>
     </button>
+    <div class="line"></div>
   </section>
-  <app-task-list
-    title="Tasks to do"
-    [list]="dataService.list | isDone: false"
-    (taskChanged)="onTaskChange($event)"
-    (taskRemove)="onTaskRemove($event)"
-  ></app-task-list>
+  <div class="tasks">
+    <app-task-list
+      title="Tasks to do"
+      [list]="dataService.list | isDone: false"
+      (taskChanged)="onTaskChange($event)"
+      (taskRemove)="onTaskRemove($event)"
+    ></app-task-list>
 
-  <app-task-list
-    title="Tasks done"
-    [list]="dataService.list | isDone"
-    (taskChanged)="onTaskChange($event)"
-    (taskRemove)="onTaskRemove($event)"
-  ></app-task-list>
+    <app-task-list
+      title="Tasks done"
+      [list]="dataService.list | isDone"
+      (taskChanged)="onTaskChange($event)"
+      (taskRemove)="onTaskRemove($event)"
+    ></app-task-list>
+  </div>
 </div>

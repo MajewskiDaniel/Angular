@@ -1,19 +1,44 @@
-.add {
-  cursor: pointer;
-}
-.router {
-  display: inline-block;
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #00f260 0%, #0575e6 100%);
+  background-clip: text;
+  color: transparent;
+}
+.add {
+  margin: 80px 15px 15px 10px;
+  cursor: pointer;
+  height: 36px;
+  width: 120px;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(225deg, #00f260 0%, #0575e6 100%);
+  border: none;
 }
 
-button {
-  background-color: white;
-  border: 1px solid grey;
-  cursor: pointer;
-  border-radius: 5px;
-  margin: 0 5px;
+.add a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.2s linear;
 }
-h3 {
-  margin-left: 20px;
+.add:hover a {
+  font-size: 15px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.tasks {
+  margin: 0 10px 20px 10px;
 }

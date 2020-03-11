@@ -1,7 +1,16 @@
 <div class="task">
-  <input type="checkbox" [checked]="task.done" (click)="checkboxChanged()" />
+  <input
+    class="checkbox"
+    type="checkbox"
+    [checked]="task.done"
+    (click)="checkboxChanged()"
+  />
   <span class="label"> {{ task.label }}</span>
-  <span class="date"> {{ task.date | date: "fullDate" }}</span>
-  <a [routerLink]="['/task', task.id, 'edit']">edit</a>
-  <button (click)="onRemove()">del</button>
+  <span class="date"> {{ task.date | date: "d MMMM" }}</span>
+  <a class="edit" [routerLink]="['/task', task.id, 'edit']"
+    ><i class="far fa-edit"></i
+  ></a>
+  <button class="delete" (click)="onRemove()">
+    <i class="fas fa-trash"></i>
+  </button>
 </div>

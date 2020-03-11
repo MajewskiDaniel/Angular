@@ -1,0 +1,53 @@
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #00f260 0%, #0575e6 100%);
+  background-clip: text;
+  color: transparent;
+}
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.nav a i {
+  background: linear-gradient(-20deg, #00f260 0%, #0575e6 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 36px;
+}
+.wrapper {
+  width: 90%;
+  margin: 150px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  margin: 10px 0 10px 0;
+}
+.input {
+  border-radius: 5px;
+}
+.save {
+  margin-top: 50px;
+  cursor: pointer;
+  height: 36px;
+  border-radius: 18px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(140deg, #00f260 0%, #0575e6 100%);
+  border: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.2s linear;
+}
+.save:hover {
+  font-size: 15px;
+}
