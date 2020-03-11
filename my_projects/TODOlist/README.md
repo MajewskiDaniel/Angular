@@ -1,3 +1,6 @@
+You can check it here:
+https://todo-app-ten.now.sh
+
 # TODOlist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
