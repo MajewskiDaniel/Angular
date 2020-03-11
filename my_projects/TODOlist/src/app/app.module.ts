@@ -11,6 +11,7 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 import { TaskItemComponent } from "./task-item/task-item.component";
 import { TaskListComponent } from "./task-list/task-list.component";
 import { IsDonePipe } from "./is-done.pipe";
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IsDonePipe } from "./is-done.pipe";
     NotFoundComponent,
     TaskItemComponent,
     TaskListComponent,
-    IsDonePipe
+    IsDonePipe,
+    SortPipe
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

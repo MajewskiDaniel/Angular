@@ -1,48 +1,55 @@
+.home {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
 h1 {
   position: absolute;
-  top: 0;
+  top: -150px;
   left: 0;
   width: 100%;
   margin: 40px auto;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
-  background: linear-gradient(45deg, #00f260 0%, #0575e6 100%);
-  background-clip: text;
-  color: transparent;
+  color: black;
 }
 .nav {
   position: absolute;
-  top: 20px;
+  top: -130px;
   left: 20px;
   z-index: 1;
 }
 
 .nav a i {
-  background: linear-gradient(-20deg, #00f260 0%, #0575e6 100%);
-  background-clip: text;
-  color: transparent;
-  font-size: 36px;
+  color: grey;
+  font-size: 24px;
 }
 .wrapper {
   width: 90%;
-  margin: 150px 10px 20px 10px;
+  margin: 150px auto 20px;
   display: flex;
   flex-direction: column;
 }
 span {
   margin: 10px 0 10px 0;
 }
-.input {
+input {
   border-radius: 5px;
+  box-shadow: none;
+}
+.date {
+  max-width: fit-content;
 }
 .save {
-  margin-top: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
   cursor: pointer;
   height: 36px;
   border-radius: 18px;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(140deg, #00f260 0%, #0575e6 100%);
+  background: linear-gradient(225deg, #d650b3 0%, #6137d3 100%);
   border: none;
   color: white;
   font-size: 14px;
@@ -50,4 +57,10 @@ span {
 }
 .save:hover {
   font-size: 15px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
 }

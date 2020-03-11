@@ -13,14 +13,14 @@
   <div class="tasks">
     <app-task-list
       title="Tasks to do"
-      [list]="dataService.list | isDone: false"
+      [list]="dataService.list | isDone: false | sort"
       (taskChanged)="onTaskChange($event)"
       (taskRemove)="onTaskRemove($event)"
     ></app-task-list>
 
     <app-task-list
       title="Tasks done"
-      [list]="dataService.list | isDone"
+      [list]="dataService.list | isDone | sort"
       (taskChanged)="onTaskChange($event)"
       (taskRemove)="onTaskRemove($event)"
     ></app-task-list>

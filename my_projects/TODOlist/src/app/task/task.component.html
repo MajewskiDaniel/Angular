@@ -3,16 +3,15 @@
     <a routerLink="/home"><i class="fas fa-arrow-left"></i></a>
   </section>
   <header>
-    <h1>
-      Your Task
-    </h1>
+    <h1>Your Task</h1>
   </header>
   <div class="wrapper">
-    <!-- {{ task | json }} -->
-    <span>Enter your task label</span>
+    <span>Enter your task label:</span>
     <input class="label" type="text" [(ngModel)]="task.label" />
-    <span>Enter your task date</span>
+    <span>Enter your task date:</span>
     <input class="date" type="date" [(ngModel)]="task.date" />
     <button class="save" (click)="onSave(task)">Save</button>
+    <!-- <br />
+    <div class="json">{{ task | json }}</div> -->
   </div>
 </div>
