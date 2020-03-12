@@ -1,0 +1,3 @@
+<task-list [task]="todoService.list$ | async | latest"></task-list>
+
+<task-list [task]="todoService.list$ | async | today"></task-list>
