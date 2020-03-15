@@ -1,0 +1,21 @@
+:root {
+    font-family: sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch;
+    justify-content: stretch; */
+    height: 200px;
+    margin: 15px;
+    background-color: #bbb;
+    padding: 20px;
+    font-family: sans-serif;
+    border: solid black 1px;
+}
+button {
+    background-color:white;
+    border: solid black 1px;
+    margin-bottom: 60px;
+    width: 100px;
+}
