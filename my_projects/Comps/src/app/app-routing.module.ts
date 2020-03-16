@@ -17,6 +17,11 @@ const routes: Routes = [
     // lazy loding above ^^ (before that we needed to remove import statements for CollectionsModule)
   },
   {
+    path: "views",
+    loadChildren: () => import("./views/views.module").then(m => m.ViewsModule)
+    // lazy loding above ^^ (before that we needed to remove import statements for CollectionsModule)
+  },
+  {
     path: "",
     component: HomeComponent
   },
