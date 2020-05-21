@@ -1,4 +1,9 @@
+THIS IS APP FROM UDEMY COURSE: The Modern Angular Bootcamp [2020] by Stephen Grider.
+It is not my design. I just wrote it for training during course.
+
 You can watch this app here: https://cards.danielmajewski82.now.sh/
+
+----------------------------------------------------------------------
 
 # Cards
 
