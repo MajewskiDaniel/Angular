@@ -1,4 +1,14 @@
+THIS IS APP FROM UDEMY COURSE: The Modern Angular Bootcamp [2020] by Stephen Grider.
+It is not my design. I just wrote it for training during course.
+
 YOU CAN SEE HOW IT WORKS: https://passgenerator-gerk7t9mc.now.sh/
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
 
 # PassGenerator
 
