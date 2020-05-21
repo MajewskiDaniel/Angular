@@ -1,5 +1,10 @@
+This is my TODO app.
+I wrote it by myself for reicruitment process.
+
 You can check it here:
 https://todo-app-ten.now.sh
+
+-------------------------------------------------------
 
 # TODOlist
 
