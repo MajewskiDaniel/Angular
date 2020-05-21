@@ -1,3 +1,8 @@
+THIS IS APP FROM UDEMY COURSE: The Modern Angular Bootcamp [2020] by Stephen Grider.
+It is not my design. I just wrote it for training during course.
+
+----------------------------------------------------------------------------------------------
+
 # Pages
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
